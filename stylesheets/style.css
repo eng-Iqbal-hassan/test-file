@@ -1,0 +1,85 @@
+span {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: "Mulish", sans-serif;
+}
+
+main .test-file {
+  margin: 15.25rem 15.5625rem 0 31.5rem;
+  padding: 8.75rem 5.4375rem 7.5rem 4.4375rem;
+  background-color: #ffffff;
+  border-radius: 14px;
+}
+main .test-file .form {
+  display: flex;
+  flex-direction: column;
+  max-width: 16.8125rem;
+}
+main .test-file .form label {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+main .test-file .form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("/assets/bottom-arrow.svg") no-repeat right center;
+  background-position: calc(100% - 19px) center;
+  padding: 0.625rem 1.1875rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #9492A0;
+  border-radius: 8px;
+  border: 1.35px solid #D6D6D6;
+  background-color: transparent;
+}
+main .test-file .form option {
+  background-color: transparent;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  width: inherit;
+  height: inherit;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #252733;
+  border-radius: 8px;
+}
+main .test-file .file {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  border: 1px dashed #D6D6D6;
+  padding: 1.8125rem 0;
+}
+main .test-file .file .image {
+  margin-bottom: 1rem;
+}
+main .test-file .file span {
+  color: #9492A0;
+  line-height: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+main .test-file .file .btn-primary {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #F1EEF9;
+  background-color: #3751FF;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4375rem;
+  width: 7.5rem;
+}/*# sourceMappingURL=style.css.map */
